@@ -29,7 +29,7 @@ Install Node.js (and along with it npm) at [the download link](https://nodejs.or
 Install Yarn with the following command in your terminal:
 
 ```
-npm install -g yarn
+sudo npm install -g yarn
 ```
 
 ## React
