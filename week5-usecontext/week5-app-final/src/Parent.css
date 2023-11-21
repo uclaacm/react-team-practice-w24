@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center
+}
+
+.parent {
+  display: block;
+  margin: auto;
+  width: 600px;
+  border: solid;
+}
+
+.child {
+  border: solid;
+  margin: 10px;
+}
+
+.logo {
+  display: block;
+  margin: auto
+}
