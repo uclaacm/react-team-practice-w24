@@ -43,7 +43,7 @@ From the [official website](https://reactjs.org/), here are React's core tenets:
 Declarative code describes what you want a program to do, and not how to actually do it. This characteristic makes React much more intuitive to learn and use.
 
 **Component-Based:**
-The fundamental building blocks of React applications are components. The modularization provided by descrete components makes code much easier to maintain and debug.
+The fundamental building blocks of React applications are components. The modularization provided by descrete components makes code much easier to maintain and debug. A component in its simplest form is a function from (some data) to (a piece of the DOM), i.e., you pass it some variables and the component uses that to give you some HTML back.
 
 **Learn-Once, Write Everywhere:**
 React makes no assumptions about the rest of your technology stack, and will work seamlessly with other technologies that you integrate with your application.
@@ -120,7 +120,7 @@ export default App;
 
 Remember that React is built upon components. In modern React, each component corresponds with a function. In this case, the entire page displayed on the browser corresponds with a single component: `App`. 
 
-Look at the return value of the `App` function. It looks a lot like HTML, but is actually syntactic sugar in JavaScript called JSX (Javascript XML). JSX allowed us to outline the exact layout of a component using familiar HTML syntax.
+Look at the return value of the `App` function. It looks a lot like HTML, but is actually syntactic sugar in JavaScript called JSX (Javascript XML). JSX is the syntax in which almost all React is written. It is the <...> ... </...> syntax you will see often which mimics the syntax of HTML. JSX allowed us to outline the exact layout of a component using familiar HTML syntax. 
 
 Note that JSX is not identical to HTML because JavaScript contains several reserved keywords. The most notable example is ```class```, which is why we use ```className``` in JSX instead.
 
