@@ -33,7 +33,7 @@ sudo npm install -g yarn
 ```
 
 ## React
-React is the most popular JavaScript framework for developing front-end applications. It is primarily maintained by Meta. Here is a graph of question activity from Stack Overflow trends comparing React with its top competitors:
+React is the most popular JavaScript framework for developing front-end applications, particularly for single-page applications where the user interacts with the page without reloading it. Developed and maintained by Meta, React has gained widespread adoption due to its simplicity, performance, and reusable components. Here is a graph of question activity from Stack Overflow trends comparing React with its top competitors:
 
 ![Stack Overflow insights for popular frontend web frameworks](./images/frontend-popularity.png)
 
