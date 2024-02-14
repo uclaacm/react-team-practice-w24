@@ -36,7 +36,7 @@ git push origin —-set-upstream branch_name
 Commit and push all changes
 ```
 git add *
-git commit -m “Commit message” -m “description”
+git commit -m “Commit message”
 git push origin –-set-upstream branch_name
 ```
 git Commit and push to main (FOR DEPENDENCIES/FINISHED COMPONENT)
